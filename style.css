@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(223, 165, 118);
+}
+h5{
+    margin-top: 0;
+}
+.uk-width-auto{
+    margin: 22px;
+}
+.uk-width-expand h3{
+    font-size: 25px;
+}
+.uk-card-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width:737px) {
+    .container{
+        display: block;
+        margin: auto;
+    }
+    .uk-flex{
+        margin: 80px auto;
+        width: 85%;
+        display: flex;
+    }
+    h1{
+        text-align: center;
+    }
+}
